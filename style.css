@@ -1,0 +1,26 @@
+body{
+    color:#003366
+}
+div.mainContainer{
+    width: 90%;
+}
+div.imageJumbo{
+    background-image: url(assets/_5d45ce90-0b68-4d23-83fb-66a94bceac80.jpg);
+    background-size: cover;
+    background-position-y: -40px; 
+    height: 50vw;
+    color:white;
+}
+div.headerContainer{
+    background-color: #d4fefa;
+    background: linear-gradient(83deg, rgba(212,254,250,1) 35%, rgba(255,255,255,0) 60%);
+    width: 100vw;
+}
+div#testimonialCarousel div.card img{
+    height: 200px;
+}
+@media (max-width:576px) {
+    div.offertaGiorno{
+        display: none;
+    }
+}
