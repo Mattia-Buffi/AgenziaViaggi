@@ -9,12 +9,27 @@ div.imageJumbo{
     background-size: cover;
     background-position-y: -40px; 
     height: 50vw;
-    color:white;
+    text-shadow: 1px 1px 2px #003366,
+    0 0 1em #d4fefa,
+    0 0 0.2em #d4fefa;
+    color:#E5832B;
+    
 }
 div.headerContainer{
     background-color: #d4fefa;
     background: linear-gradient(83deg, rgba(212,254,250,1) 35%, rgba(255,255,255,0) 60%);
     width: 100vw;
+}
+div#lastminutBox div.card img{
+    height:200px;
+    object-fit: cover;
+}
+div#welSumCard div.card img{
+    height:150px;
+    object-fit: cover;
+}
+div#lastminutBox div.card{
+    border:none;
 }
 div#testimonialCarousel div.card img{
     height: 200px;
@@ -23,4 +38,7 @@ div#testimonialCarousel div.card img{
     div.offertaGiorno{
         display: none;
     }
+}
+div.footer{
+    background-color: #d4fefa;
 }
